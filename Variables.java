@@ -7,12 +7,21 @@ class Student {
 
     Student(String n) {
         studentName = n;
-        System.out.println(studentName + " is a student at " + SCHOOL_NAME + ".");
+        System.out.println(studentName + " is a student at " + SCHOOL_NAME);
+        studentCount++;
     }
 }
 
 public class Variables {
     public static void main(String[] args) {
         new Student("Alex");
+        new Student("John");
+        new Student("Tyler");
+        new Student("Benny");
+        new Student("Bushrod");
+        new Student("Bobo");
+        new Student("Spotswood");
+
+        System.out.println("Number of students: " + Student.studentCount);
     }
 }
