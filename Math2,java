@@ -1,0 +1,26 @@
+// accumulation, increment, decrement
+
+class ScoreBoard {
+    int playerXP = 0;
+    int playerLevel = 0;
+
+    void gainXP(int amount) {
+        playerXP += amount;
+    }
+
+    void heal() {
+        playerXP += 50;
+    }
+}
+
+public class Math2 {
+    public static void main(String[] args) {
+
+        ScoreBoard board = new ScoreBoard();
+
+        board.gainXP(1);
+        board.gainXP(2);
+
+        System.out.println("Player XP: " + board.playerXP);
+    }
+}
