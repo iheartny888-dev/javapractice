@@ -3,6 +3,7 @@
 class ScoreBoard {
     int playerXP = 0;
     int playerLevel = 0;
+    int playerHealth = 0;
     static String gameName = "game";
 
     void gainXP(int amount) {
@@ -10,11 +11,11 @@ class ScoreBoard {
     }
 
     void heal() {
-        playerXP += 50;
+        playerHealth += 50;
     }
 
     void damage() {
-        playerXP -= 10;
+        playerHealth -= 10;
     }
 
     void levelUp() {
@@ -45,6 +46,7 @@ public class Math2 {
 
         ScoreBoard.name();
         System.out.println("Player XP: " + player1.playerXP);
+        System.out.println("Player Health: " + player1.playerHealth);
         System.out.println("Player Level: " + player1.playerLevel);
     }
 }
