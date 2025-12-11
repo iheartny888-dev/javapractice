@@ -12,5 +12,15 @@ public class Strings {
 
         System.out.println("Compare: " + name1.compareTo(name2));
 
+        System.out.println("# of chars in string: " + name1.length());
+        System.out.println("Index select: " + name2.indexOf("o"));
+        System.out.println("Character select: " + name2.charAt(2));
+
+        String quote = "Talk is cheap, show me the code.";
+        String result1 = quote.substring(15);
+
+        System.out.println("Full quote: " + quote);
+        System.out.println("Substring 1: " + result1);
+
     }
 }
