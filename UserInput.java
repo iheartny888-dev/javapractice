@@ -28,6 +28,10 @@ public class UserInput {
         double[] doubles = new double[] { Double.parseDouble(input.nextLine()), Double.parseDouble(input.nextLine()) };
         System.out.println(doubles[0] / doubles[1]);
 
+        System.out.println("Enter circle diameter");
+        double dia = Double.parseDouble(input.nextLine());
+        System.out.println(dia * dia * Math.PI);
+
     }
 
 }
