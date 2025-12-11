@@ -5,9 +5,15 @@ public class UserInput {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        System.out("Enter your name ");
+        System.out("Enter your name");
         String name = input.nextLine();
         System.out.println(name);
+
+        System.out.println("Enter your age");
+        String age = input.nextLine();
+
+        int ageConverted = Integer.parseInt(age);
+        System.out.println("Next year " + name + " will be: " + (agConverted + 1));
 
     }
 
