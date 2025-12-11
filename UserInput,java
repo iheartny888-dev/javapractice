@@ -15,6 +15,9 @@ public class UserInput {
         int ageConverted = Integer.parseInt(age);
         System.out.println("Next year " + name + " will be: " + (agConverted + 1));
 
+        System.out.println("What is your height in meters?");
+        double heigh = Double.parseDouble(input.nextLine());
+
     }
 
 }
