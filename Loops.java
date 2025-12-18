@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Loops {
     public static void main(String[] args) {
 
@@ -32,6 +34,27 @@ public class Loops {
             }
             if (i % 5 == 0) {
                 System.out.print("bar");
+            }
+            System.out.println();
+        }
+
+        for (int i = 1; i < 13; i++) {
+            for (int k = 1; k < 13; k++) {
+                System.out.println(i + " * " + k + " = " + (i * k));
+            }
+        }
+
+        Scanner in = new Scanner(System.in);
+
+        int ans = 2;
+        int gue = 0;
+
+        while (gue != ans) {
+            gue = in.nextInt();
+            if (gue == ans) {
+                System.out.println("Correct answer");
+            } else {
+                System.out.println("Wrong answer");
             }
         }
     }
