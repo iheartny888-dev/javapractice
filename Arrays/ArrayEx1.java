@@ -2,7 +2,7 @@ public class ArrayEx1 {
 
     public static void main(String args[]) {
         
-       //int[] primeNum = new long[20];
+        //int[] primeNum = new long[20];
         //int even=new int[5];
         long[] primes = new long[20];
         primes[0] = 2;
@@ -12,6 +12,13 @@ public class ArrayEx1 {
         primes2[0] = 5;
         System.out.println(primes[0]);
 
+        int[] score = new int[9];
+        byte[] values = new byte[10];
+        for (int i = 0; i < 10; i++) {
+            values[i] = 1;
+            System.out.println(values[i]);
+            System.out.println(score[i - 1]);
+        }
     }
 
 }
