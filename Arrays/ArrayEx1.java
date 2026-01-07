@@ -12,12 +12,12 @@ public class ArrayEx1 {
         primes2[0] = 5;
         System.out.println(primes[0]);
 
-        int[] score = new int[9];
+        int[] score = new int[10];
         byte[] values = new byte[10];
         for (int i = 0; i < 10; i++) {
             values[i] = 1;
             System.out.println(values[i]);
-            System.out.println(score[i - 1]);
+            System.out.println(score[i]);
         }
     }
 
