@@ -32,5 +32,10 @@ public class ArrayPractice {
                      
         }
         System.out.println(allSame);
+
+        String[] names = {"George", "Jill", "Xinyi", "Ravi"};
+        for (String name : names) {
+            System.out.println(name);            
+        }
     }
 }
