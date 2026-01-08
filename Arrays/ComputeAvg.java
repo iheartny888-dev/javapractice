@@ -8,7 +8,7 @@ public class ComputeAvg {
         for (int scr : scores) {
             avg += scr;
         }
-        avg = avg / 4;
+        avg = avg / 5;
         System.out.println(avg);
     }
 }
