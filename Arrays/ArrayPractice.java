@@ -19,7 +19,7 @@ public class ArrayPractice {
                 System.out.println(targetFound);
                 break;
             }
-            System.out.println(targetFound); 
+            System.out.println(targetFound);
         }
 
         int[] numbers = {0, 0, 0, 1, 0};
