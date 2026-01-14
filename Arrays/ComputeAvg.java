@@ -10,5 +10,6 @@ public class ComputeAvg {
         }
         avg = avg / scores.length;
         System.out.println(avg);
+        score.close();
     }
 }
