@@ -11,6 +11,6 @@ public class ArrayPractice2 {
                 nums[0][0] = input.nextInt();
             }
         }
-        
+        input.close();
     }
 }
