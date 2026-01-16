@@ -6,13 +6,20 @@ public class TicTacToeChallenge {
         char[][] board = new char[3][3];
         int i = 0;
         int j = 0;
+        int x = 0;
+        int o = 0;
         for (char[] r : board) {
             for (char c : r) {
                 int num = (Math.random() <= 0.5) ? 1 : 2;
-                if (num > 1) {
+                if (num > 1 && x < 5) {
                     board[i][j] = 'X';
-                } else {
+                    x++;
+                } else if (o < 6) {
                     board[i][j] = 'O';
+                    o++;
+                } else {
+                    board[i][j] = 'X';
+                    x++;
                 }
                 j++;
                 if (j > 2) {
