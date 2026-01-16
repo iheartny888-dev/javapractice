@@ -4,7 +4,10 @@ import java.util.Arrays;
 public class TicTacToeChallenge {
     public static void main(String[] args) {
         char[][] board = new char[3][3];
-        int i, j, x, o = 0;
+        int i = 0;
+        int j = 0;
+        int x = 0;
+        int o = 0;
         for (char[] r : board) {
             for (char c : r) {
                 int num = (Math.random() <= 0.5) ? 1 : 2;
