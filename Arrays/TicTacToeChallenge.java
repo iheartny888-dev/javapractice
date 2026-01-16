@@ -6,8 +6,8 @@ public class TicTacToeChallenge {
         char[][] board = new char[3][3];
         int i = 0;
         int j = 0;
-        for (char[] row : board) {
-            for (char box : row) {
+        for (char[] r : board) {
+            for (char c : r) {
                 int num = (Math.random() <= 0.5) ? 1 : 2;
                 if (num > 1) {
                     board[i][j] = 'X';
