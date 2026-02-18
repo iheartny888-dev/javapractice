@@ -20,6 +20,7 @@ public class GetSetTester {
         System.out.print("Enter a username: ");
         String user = input.nextLine();
         player3.setUsername(user);
+        System.out.println(player3.getUsername());
 
         
     }
