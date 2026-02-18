@@ -32,7 +32,12 @@ public class GetSetTester {
         player3.setRank(rank);
         System.out.println(player3.getRank());
 
-        
+        if (player1.getUsername().equals("pineappleghost333")) {
+            System.out.println("You are an admin");
+        } else {
+            Sytem.out.println("Access denied")
+        }
+
     }
 }
 
@@ -41,27 +46,27 @@ class GetSet {
     private int ID = 0;
     private String rank = "No rank";
 
-    public String getUsername(){
+    public String getUsername() {
         return username;
     }
-    
-    public void setUsername(String newUsername){
+
+    public void setUsername(String newUsername) {
         this.username = newUsername;
     }
 
-    public int getID(){
+    public int getID() {
         return ID;
     }
-    
-    public void setID(int newID){
+
+    public void setID(int newID) {
         this.ID = newID;
     }
 
-    public String getRank(){
+    public String getRank() {
         return rank;
     }
-    
-    public void setRank(String newRank){
+
+    public void setRank(String newRank) {
         this.rank = newRank;
     }
 }
