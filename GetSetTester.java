@@ -35,7 +35,7 @@ public class GetSetTester {
         if (player1.getUsername().equals("pineappleghost333")) {
             System.out.println("You are an admin");
         } else {
-            Sytem.out.println("Access denied")
+            System.out.println("Access denied");
         }
 
     }
