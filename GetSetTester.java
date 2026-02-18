@@ -28,6 +28,8 @@ public class GetSetTester {
 
 class GetSet {
     private String username = "No user name";
+    private int ID = 0;
+    private String rank = "No rank";
 
     public String getUsername(){
         return username;
@@ -35,5 +37,21 @@ class GetSet {
     
     public void setUsername(String newUsername){
         this.username = newUsername;
+    }
+
+    public String getID(){
+        return ID;
+    }
+    
+    public void setID(String newID){
+        this.ID = newID;
+    }
+
+    public String getRank(){
+        return rank;
+    }
+    
+    public void setRank(String newRank){
+        this.rank = newRank;
     }
 }
