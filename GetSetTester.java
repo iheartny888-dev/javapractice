@@ -1,19 +1,24 @@
 public class GetSetTester {
-    public static void main(Strin[] args) {
-        GetSet name = new GetSet();
+    public static void main(String[] args) {
 
-        System.out.println(name.username);
+        GetSet player1 = new GetSet();
+
+        System.out.println(player1.getUsername());
+        player1.setUsername("pineappleghost333");
+        System.out.println(player1.getUsername());
+        
     }
 }
 
-class GetSet {
-    private String username = "pineappleghost333";
+class GetSet{
+    private String username;
 
-    public String getUsername() {
+    public String getUsername(){
         return username;
     }
-
-    public void setUsername(String name) {
-        username = name;
+    
+    public void setUsername(String newUsername){
+        this.username = newUsername;
     }
+
 }
