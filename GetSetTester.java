@@ -22,6 +22,16 @@ public class GetSetTester {
         player3.setUsername(user);
         System.out.println(player3.getUsername());
 
+        System.out.print("Enter an ID: ");
+        String id = input.nextInt();
+        player3.setID(id);
+        System.out.println(player3.getID());
+
+        System.out.print("Enter a rank (Noob, Amateur, Pro, Hacker, God): ");
+        String rank = input.nextInt();
+        player3.setRank(rank);
+        System.out.println(player3.getRank());
+
         
     }
 }
