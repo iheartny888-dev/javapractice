@@ -23,7 +23,7 @@ public class GetSetTester {
         System.out.println(player3.getUsername());
 
         System.out.print("Enter an ID: ");
-        int id = input.nextInt();
+        int id = Integer.parseInt(input.nextLine());
         player3.setID(id);
         System.out.println(player3.getID());
 
