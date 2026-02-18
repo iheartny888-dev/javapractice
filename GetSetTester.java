@@ -23,12 +23,12 @@ public class GetSetTester {
         System.out.println(player3.getUsername());
 
         System.out.print("Enter an ID: ");
-        String id = input.nextInt();
+        int id = input.nextInt();
         player3.setID(id);
         System.out.println(player3.getID());
 
         System.out.print("Enter a rank (Noob, Amateur, Pro, Hacker, God): ");
-        String rank = input.nextInt();
+        String rank = input.nextLine();
         player3.setRank(rank);
         System.out.println(player3.getRank());
 
@@ -49,11 +49,11 @@ class GetSet {
         this.username = newUsername;
     }
 
-    public String getID(){
+    public int getID(){
         return ID;
     }
     
-    public void setID(String newID){
+    public void setID(int newID){
         this.ID = newID;
     }
 
