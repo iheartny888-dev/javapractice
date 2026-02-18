@@ -16,8 +16,11 @@ public class GetSetTester {
         player2.setUsername("ironmouse6741");
         System.out.println(player2.getUsername());
 
+        GetSet player3 = new GetSet();
         System.out.print("Enter a username: ");
-        String player = input.nextLine();
+        String user = input.nextLine();
+        player3.setUsername(user);
+
         
     }
 }
