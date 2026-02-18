@@ -38,6 +38,22 @@ public class GetSetTester {
             System.out.println("Access denied");
         }
 
+        if (player3.getRank().equals("Noob")) {
+            System.out.println("You are a Noob");
+        }
+        if (player3.getRank().equals("Amateur")) {
+            System.out.println("You are an Amateur");
+        }
+        if (player3.getRank().equals("Pro")) {
+            System.out.println("You are a Pro");
+        }
+        if (player3.getRank().equals("Hacker")) {
+            System.out.println("You are a Hacker");
+        }
+        if (player3.getRank().equals("God")) {
+            System.out.println("You are a God");
+        }
+
     }
 }
 
