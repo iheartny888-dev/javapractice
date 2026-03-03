@@ -27,7 +27,7 @@ class ScoreBoard {
         playerLevel++;
     }
 
-    void LevelDown() {
+    void levelDown() {
         playerLevel--;
     }
 
