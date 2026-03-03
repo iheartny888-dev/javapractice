@@ -75,6 +75,7 @@ public class ArrayListDemo {
 
     System.out.println(list.size());
 
+    
 
     // Create an arrayList with 10 random numbers
     // Remove all odd from that list
@@ -85,7 +86,10 @@ public class ArrayListDemo {
     // continue until you type exit
 
 
-    // Create a list of grocery i
+    // Create a list of grocery items
+    // if the user types in a food print out the index
+    // If not print "Not Found" and add it to the list
+    // continue until you type exit
 }
     
 }
