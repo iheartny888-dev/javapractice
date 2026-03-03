@@ -2,6 +2,7 @@ public class WrapperClassesTester {
     public static void main(String[] args) {
         
         Wrapper.demoInteger();
+        Wrapper.demoBoolean();
 
     }
 }
@@ -23,7 +24,7 @@ class Wrapper {
 
     public static void demoBoolean() {
         boolean primitiveBool = true;
-        Boolean myBool = false;
+        Boolean myBool = Boolean.valueOf(true);
 
         System.out.println("Primitive boolean: " + primitiveBool);
         System.out.println("Wrapper Boolean: " + myBool);
