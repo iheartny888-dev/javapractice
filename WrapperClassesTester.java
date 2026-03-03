@@ -18,5 +18,6 @@ class Wrapper {
         System.out.println("Min value of Integer: " + Integer.MIN_VALUE);
 
         int parsed = Integer.parseInt("25");
+        System.out.println("Parsed integer from string: " + parsed);
     }
 }
