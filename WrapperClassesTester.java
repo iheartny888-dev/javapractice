@@ -16,5 +16,7 @@ class Wrapper {
 
         System.out.println("Max value of Integer: " + Integer.MAX_VALUE);
         System.out.println("Min value of Integer: " + Integer.MIN_VALUE);
+
+        int parsed = Integer.parseInt("25");
     }
 }
