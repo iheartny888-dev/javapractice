@@ -32,7 +32,7 @@ class Wrapper {
         System.out.println("Value of Boolean.TRUE: " + Boolean.TRUE);
         System.out.println("Value of Boolean.FALSE: " + Boolean.FALSE);
 
-        boolean parsed = Boolean.parseBoolean("true");
+        boolean parsed = Boolean.parseBoolean("false");
         System.out.println("Parsed boolean from string: " + parsed);
     }
 }
