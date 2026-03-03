@@ -13,5 +13,8 @@ class Wrapper {
 
         System.out.println("Primitive int: " + primitiveInt);
         System.out.println("Wrapper Integer: " + myInt);
+
+        System.out.println("Max value of Integer: " + Integer.MAX_VALUE);
+        System.out.println("Min value of Integer: " + Integer.MIN_VALUE);
     }
 }
