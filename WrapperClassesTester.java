@@ -3,6 +3,7 @@ public class WrapperClassesTester {
         
         Wrapper.demoInteger();
         Wrapper.demoBoolean();
+        Wrapper.autoBoxingDemo();
 
     }
 }
@@ -34,5 +35,12 @@ class Wrapper {
 
         boolean parsed = Boolean.parseBoolean("false");
         System.out.println("Parsed boolean from string: " + parsed);
+    }
+
+    public static void autoBoxingDemo() {
+        Integer autoBoxedInt = 20;
+        int autoUnboxedInt = autoBoxedInt;
+        System.out.println("Auto-boxed Integer: " + autoBoxedInt);
+        System.out.println("Auto-unboxed int: " + autoUnboxedInt);
     }
 }
