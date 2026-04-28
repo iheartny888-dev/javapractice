@@ -2,12 +2,12 @@ import java.util.*;
 
 public class Sort {
     public static void main(String[] args) {
-        int[] swapNumbers = {9, 3};
+        int[] swapNumbers = {9, 3, 8, 1, 5, 2, 7, 4, 6};
         
         SortingAlgorithms swap = new SortingAlgorithms(swapNumbers);
 
         System.out.println("Before swap: " + Arrays.toString(swapNumbers));
-        swap.swapNumbers();
+        swap.selectionSort();
         System.out.println("After swap: " + Arrays.toString(swapNumbers));
     }
 
