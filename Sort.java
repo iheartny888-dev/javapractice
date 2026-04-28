@@ -39,8 +39,9 @@ class SortingAlgorithms {
                 if (list[j] < list[minIndex]) {
                     minIndex = j;
                 }
+                swap(i, minIndex);
             }
-            swap(i, minIndex);
+            
         }
     }
 }
