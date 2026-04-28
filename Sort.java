@@ -35,11 +35,14 @@ class SortingAlgorithms {
     public void selectionSort() {
         for (int i = 0; i < list.length - 1; i++) {
             int minIndex = i;
+            int n = i;
             for (int j = i + 1; j < list.length; j++) {
                 if (list[j] < list[minIndex]) {
                     minIndex = j;
                 }
-                swap(i, minIndex);
+
+                swap(n, minIndex);
+                n = minIndex;
             }
             
         }
