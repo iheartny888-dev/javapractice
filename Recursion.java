@@ -1,7 +1,7 @@
 public class Recursion {
     public static void main(String[] args) {
     RecursionAlgos r = new RecursionAlgos();
-    r.countDown(5);
+    r.countDown(3);
     }
 }
 
@@ -17,5 +17,6 @@ class RecursionAlgos {
         }
         System.out.println(n);
         countDown(n - 1);
+        System.out.println("Unstacking: " + n);
     }
 }
